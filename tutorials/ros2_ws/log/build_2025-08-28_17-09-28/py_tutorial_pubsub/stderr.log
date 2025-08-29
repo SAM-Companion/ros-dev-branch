@@ -1,2 +1,0 @@
-/home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/install/py_tutorial_pubsub/lib/python3.12/site-packages/py_tutorial_pubsub/publisher_member_function.py:32: SyntaxWarning: invalid escape sequence '\#'
-  msg.data = 'Message \#%d' % self.i
