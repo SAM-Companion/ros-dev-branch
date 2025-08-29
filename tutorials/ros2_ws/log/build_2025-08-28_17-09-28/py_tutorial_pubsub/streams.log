@@ -1,0 +1,44 @@
+[2.484s] Invoking command in '/home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/src/py_tutorial_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/build/py_tutorial_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/install/py_tutorial_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_tutorial_pubsub build --build-base /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/build/py_tutorial_pubsub/build install --record /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/build/py_tutorial_pubsub/install.log --single-version-externally-managed install_data
+[2.889s] running egg_info
+[2.890s] creating ../../build/py_tutorial_pubsub/py_tutorial_pubsub.egg-info
+[2.918s] writing ../../build/py_tutorial_pubsub/py_tutorial_pubsub.egg-info/PKG-INFO
+[2.918s] writing dependency_links to ../../build/py_tutorial_pubsub/py_tutorial_pubsub.egg-info/dependency_links.txt
+[2.918s] writing entry points to ../../build/py_tutorial_pubsub/py_tutorial_pubsub.egg-info/entry_points.txt
+[2.918s] writing requirements to ../../build/py_tutorial_pubsub/py_tutorial_pubsub.egg-info/requires.txt
+[2.918s] writing top-level names to ../../build/py_tutorial_pubsub/py_tutorial_pubsub.egg-info/top_level.txt
+[2.919s] writing manifest file '../../build/py_tutorial_pubsub/py_tutorial_pubsub.egg-info/SOURCES.txt'
+[2.982s] reading manifest file '../../build/py_tutorial_pubsub/py_tutorial_pubsub.egg-info/SOURCES.txt'
+[2.982s] adding license file 'LICENSE'
+[2.983s] writing manifest file '../../build/py_tutorial_pubsub/py_tutorial_pubsub.egg-info/SOURCES.txt'
+[2.983s] running build
+[2.983s] running build_py
+[2.983s] creating /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/build/py_tutorial_pubsub/build
+[2.983s] creating /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/build/py_tutorial_pubsub/build/lib
+[2.983s] creating /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/build/py_tutorial_pubsub/build/lib/py_tutorial_pubsub
+[2.984s] copying py_tutorial_pubsub/subscriber_member_function.py -> /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/build/py_tutorial_pubsub/build/lib/py_tutorial_pubsub
+[2.984s] copying py_tutorial_pubsub/__init__.py -> /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/build/py_tutorial_pubsub/build/lib/py_tutorial_pubsub
+[2.984s] copying py_tutorial_pubsub/publisher_member_function.py -> /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/build/py_tutorial_pubsub/build/lib/py_tutorial_pubsub
+[2.984s] running install
+[2.994s] running install_lib
+[3.023s] creating /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/install/py_tutorial_pubsub/lib/python3.12/site-packages/py_tutorial_pubsub
+[3.023s] copying /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/build/py_tutorial_pubsub/build/lib/py_tutorial_pubsub/subscriber_member_function.py -> /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/install/py_tutorial_pubsub/lib/python3.12/site-packages/py_tutorial_pubsub
+[3.023s] copying /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/build/py_tutorial_pubsub/build/lib/py_tutorial_pubsub/__init__.py -> /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/install/py_tutorial_pubsub/lib/python3.12/site-packages/py_tutorial_pubsub
+[3.023s] copying /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/build/py_tutorial_pubsub/build/lib/py_tutorial_pubsub/publisher_member_function.py -> /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/install/py_tutorial_pubsub/lib/python3.12/site-packages/py_tutorial_pubsub
+[3.024s] byte-compiling /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/install/py_tutorial_pubsub/lib/python3.12/site-packages/py_tutorial_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-312.pyc
+[3.025s] byte-compiling /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/install/py_tutorial_pubsub/lib/python3.12/site-packages/py_tutorial_pubsub/__init__.py to __init__.cpython-312.pyc
+[3.025s] byte-compiling /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/install/py_tutorial_pubsub/lib/python3.12/site-packages/py_tutorial_pubsub/publisher_member_function.py to publisher_member_function.cpython-312.pyc
+[3.026s] /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/install/py_tutorial_pubsub/lib/python3.12/site-packages/py_tutorial_pubsub/publisher_member_function.py:32: SyntaxWarning: invalid escape sequence '\#'
+[3.026s]   msg.data = 'Message \#%d' % self.i
+[3.026s] running install_data
+[3.026s] creating /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/install/py_tutorial_pubsub/share/ament_index
+[3.026s] creating /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/install/py_tutorial_pubsub/share/ament_index/resource_index
+[3.026s] creating /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/install/py_tutorial_pubsub/share/ament_index/resource_index/packages
+[3.026s] copying resource/py_tutorial_pubsub -> /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/install/py_tutorial_pubsub/share/ament_index/resource_index/packages
+[3.026s] copying package.xml -> /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/install/py_tutorial_pubsub/share/py_tutorial_pubsub
+[3.027s] running install_egg_info
+[3.060s] Copying ../../build/py_tutorial_pubsub/py_tutorial_pubsub.egg-info to /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/install/py_tutorial_pubsub/lib/python3.12/site-packages/py_tutorial_pubsub-0.0.0-py3.12.egg-info
+[3.061s] running install_scripts
+[3.263s] Installing listener script to /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/install/py_tutorial_pubsub/lib/py_tutorial_pubsub
+[3.263s] Installing talker script to /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/install/py_tutorial_pubsub/lib/py_tutorial_pubsub
+[3.264s] writing list of installed files to '/home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/build/py_tutorial_pubsub/install.log'
+[3.373s] Invoked command in '/home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/src/py_tutorial_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/build/py_tutorial_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/install/py_tutorial_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_tutorial_pubsub build --build-base /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/build/py_tutorial_pubsub/build install --record /home/sam-robot-pi/Documents/ros-dev/tutorials/ros2_ws/build/py_tutorial_pubsub/install.log --single-version-externally-managed install_data

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: py-tutorial-pubsub
+Version: 0.0.0
+Summary: A non-functional package being used by someone to familiarize themselves with ROS.
+Maintainer: sam-robot-pi
+Maintainer-email: hawkswithmath@gmail.com
+License: Apache-2.0
+License-File: LICENSE
